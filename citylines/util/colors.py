@@ -60,10 +60,21 @@ cool_scheme = ColorScheme(
     tram="#6761A8"
 )
 
+# Green Scheme
+green_scheme = ColorScheme(
+    funicular_cable_gondola="##D0FF00",
+    ferry_water="##90FF00",
+    bus="##51FF00",
+    rail="##00FF7D",
+    subway="##00FFBC",
+    tram="###00C2FF"
+)
+
 color_schemes = {
     'default': default_scheme,
     'pastel': pastel_scheme,
     'inferno': inferno_scheme,
     'earthy': earthy_scheme,
-    'cool': cool_scheme
+    'cool': cool_scheme,
+    'green': green_scheme
 }
