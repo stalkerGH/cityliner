@@ -110,6 +110,16 @@ prism_scheme = ColorScheme(
     tram="#FFB100"
 )
 
+# Prism2 Scheme (variation of Prism)
+prism2_scheme = ColorScheme(
+    funicular_cable_gondola="#974696",
+    ferry_water="#FF377A",
+    bus="#ED3F29",
+    rail="#0078B5",
+    subway="#FF8700",
+    tram="#76C16A"
+)
+
 color_schemes = {
     'default': default_scheme,
     'pastel': pastel_scheme,
@@ -120,5 +130,6 @@ color_schemes = {
     'brownyellow': brownyellow_scheme,
     'purple': purple_scheme,
     'mint': mint_scheme,
-    'prism': prism_scheme
+    'prism': prism_scheme,
+    'prism2': prism2_scheme
 }
