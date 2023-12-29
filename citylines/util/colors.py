@@ -60,14 +60,54 @@ cool_scheme = ColorScheme(
     tram="#6761A8"
 )
 
-# Green Scheme
-green_scheme = ColorScheme(
+# GreenBlue Scheme
+greenblue_scheme = ColorScheme(
     funicular_cable_gondola="#D0FF00",
     ferry_water="#90FF00",
     bus="#51FF00",
     rail="#00FF7D",
     subway="#00FFBC",
     tram="#00C2FF"
+),
+
+# BrwnYl Scheme (based on CartoColor scheme)
+brownyellow_scheme = ColorScheme(
+    funicular_cable_gondola="#11CC80",
+    ferry_water="#6C2146",
+    bus="#DC217F",
+    rail="#F3E7D5",
+    subway="#A3A3A3",
+    tram="#DC7E76"
+),
+
+# Purp Scheme (based on CartoColor scheme)
+purple_scheme = ColorScheme(
+    funicular_cable_gondola="#654792",
+    ferry_water="#C7A4E0",
+    bus="#EDCFF2",
+    rail="#DEB9EA",
+    subway="#8E7BC1",
+    tram="#FAE4F7"
+),
+
+# Mint Scheme (based on CartoColor scheme)
+mint_scheme = ColorScheme(
+    funicular_cable_gondola="#E3F3E6",
+    ferry_water="#40B0AC",
+    bus="#AEDED3",
+    rail="#7AC8C0",
+    subway="#00656C",
+    tram="#009897"
+),
+
+# Prism Scheme (based on CartoColor scheme)
+prism_scheme = ColorScheme(
+    funicular_cable_gondola="#684D9E",
+    ferry_water="#AF146D",
+    bus="#00A773",
+    rail="#0078A1",
+    subway="#ED3F29",
+    tram="#FFB100"
 )
 
 color_schemes = {
@@ -76,5 +116,9 @@ color_schemes = {
     'inferno': inferno_scheme,
     'earthy': earthy_scheme,
     'cool': cool_scheme,
-    'green': green_scheme
+    'greenblue': greenblue_scheme
+    'brownyellow': brownyellow_scheme
+    'purple': purple_scheme
+    'mint': mint_scheme
+    'prism': prism_scheme
 }
