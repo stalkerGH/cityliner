@@ -12,10 +12,10 @@ PLACE_CONFIGS = {
     "wroclaw": {
         "center": Point(51.1094782, 17.0108073),
         "distances": [10, 20, 30],
-        "logos": [],
+        "logos": ["Herb_wroclaw.svg"],
         "gtfs": "wroclaw",
         "color_scheme": "pastel",
-        "text": """Wrocław public transport routes"""
+        "text": """Based on GTFS feed by Wrocław municipality"""
     },
     "warsaw": {
         "center": Point(52.228865, 21.0006369),
