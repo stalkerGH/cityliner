@@ -68,7 +68,7 @@ greenblue_scheme = ColorScheme(
     rail="#00FF7D",
     subway="#00FFBC",
     tram="#00C2FF"
-),
+)
 
 # BrwnYl Scheme (based on CartoColor scheme)
 brownyellow_scheme = ColorScheme(
@@ -78,7 +78,7 @@ brownyellow_scheme = ColorScheme(
     rail="#F3E7D5",
     subway="#A3A3A3",
     tram="#DC7E76"
-),
+)
 
 # Purp Scheme (based on CartoColor scheme)
 purple_scheme = ColorScheme(
@@ -88,7 +88,7 @@ purple_scheme = ColorScheme(
     rail="#DEB9EA",
     subway="#8E7BC1",
     tram="#FAE4F7"
-),
+)
 
 # Mint Scheme (based on CartoColor scheme)
 mint_scheme = ColorScheme(
@@ -98,7 +98,7 @@ mint_scheme = ColorScheme(
     rail="#7AC8C0",
     subway="#00656C",
     tram="#009897"
-),
+)
 
 # Prism Scheme (based on CartoColor scheme)
 prism_scheme = ColorScheme(
