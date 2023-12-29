@@ -1,9 +1,4 @@
-<p align="left">
-<img width="24%" src="gallery/zurich-30-default.png" alt="Zürich 30km"/>
-<img width="24%" src="gallery/zurich-30-pastel.png" alt="Zürich 30km"/>
-<img width="24%" src="gallery/zurich-30-earhy.png" alt="Zürich 30km"/>
-<img width="24%" src="gallery/zurich-30-inferno.png" alt="Zürich 30km"/>
-</p>
+![City Pane Trio](gallery/city_pane_trio.png)
 
 # Cityliner
 
@@ -61,14 +56,15 @@ python main.py --gtfs gtfs/[place_name] --center [center_coordinates] --poster [
 - `--poster`: Create a drawing for A0 poster size.
 - `--water`: Add water bodies to the poster (beta).
 - `--color-scheme`: Choose a color scheme for the poster. Allowed values are: `default`, `pastel`, `inferno`, `earthy`, `cool`. Default is `default`.
+- `--logos`: List of logos for the poster (inside `./assets/logos/{place_name}/`)
 
 **(Either `--width` and `--height` or `--poster` must be provided)**
 
 Example Helsinki:
 ```shell
-python main.py --gtfs=./gtfs/helsinki --place_name=helsinki --center=60.1706017,24.9414482 --poster --color-scheme=pastel --water
+python main.py --gtfs=./gtfs/helsinki --place_name=helsinki --center=60.1706017,24.9414482 --poster --color-scheme=pastel --water --logos "helsinki.svg" "hsl.svg"
 ```
-See configs from other cities in https://github.com/dragoon/cityliner/blob/master/citylines/process_configs.py
+See configs for other cities in https://github.com/dragoon/cityliner/blob/master/citylines/process_configs.py
 
 ## Gallery
 
