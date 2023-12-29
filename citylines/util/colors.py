@@ -62,12 +62,12 @@ cool_scheme = ColorScheme(
 
 # Green Scheme
 green_scheme = ColorScheme(
-    funicular_cable_gondola="##D0FF00",
-    ferry_water="##90FF00",
-    bus="##51FF00",
-    rail="##00FF7D",
-    subway="##00FFBC",
-    tram="###00C2FF"
+    funicular_cable_gondola="#D0FF00",
+    ferry_water="#90FF00",
+    bus="#51FF00",
+    rail="#00FF7D",
+    subway="#00FFBC",
+    tram="#00C2FF"
 )
 
 color_schemes = {
