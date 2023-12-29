@@ -116,9 +116,9 @@ color_schemes = {
     'inferno': inferno_scheme,
     'earthy': earthy_scheme,
     'cool': cool_scheme,
-    'greenblue': greenblue_scheme
-    'brownyellow': brownyellow_scheme
-    'purple': purple_scheme
-    'mint': mint_scheme
+    'greenblue': greenblue_scheme,
+    'brownyellow': brownyellow_scheme,
+    'purple': purple_scheme,
+    'mint': mint_scheme,
     'prism': prism_scheme
 }
